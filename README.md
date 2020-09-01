@@ -1,6 +1,6 @@
 # Docker Image with InfluxDB and Grafana
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/philhawthorne/docker-influxdb-grafana.svg)](https://dockerhub.com/dtushar/docker-influxdb-grafana) [![license](https://img.shields.io/github/license/tushardhadiwal/docker-influxdb-grafana.svg)](https://dockerhub.com/dtushar/docker-influxdb-grafana)
+[![Docker Pulls](https://img.shields.io/docker/pulls/dtushar/docker-influxdb-grafana.svg)](https://dockerhub.com/dtushar/docker-influxdb-grafana) [![license](https://img.shields.io/github/license/tushardhadiwal/docker-influxdb-grafana.svg)](https://dockerhub.com/dtushar/docker-influxdb-grafana)
 
 ![Grafana][grafana-version] ![Influx][influx-version] ![Chronograf][chronograf-version]
 
