@@ -12,6 +12,7 @@ The main point of difference with this image is:
 * Persistence is supported via mounting volumes to a Docker container
 * Grafana will store its data in SQLite files instead of a MySQL table on the container, so MySQL is not installed
 * Telegraf (StatsD) is not included in this container
+* Grafana Version has been updated to 7.1.5 , which supports Flux for InfluxDB.
 
 The main purpose of this image is to be used to show data from a [Home Assistant](https://home-assistant.io) installation. For more information on how to do that, please see my website about how I use this container.
 
@@ -33,7 +34,7 @@ docker run -d \
   -p 8086:8086 \
   -v /path/for/influxdb:/var/lib/influxdb \
   -v /path/for/grafana:/var/lib/grafana \
-  philhawthorne/docker-influxdb-grafana:latest
+  dtushar/docker-influxdb-grafana:latest
 ```
 
 To stop the container launch:
