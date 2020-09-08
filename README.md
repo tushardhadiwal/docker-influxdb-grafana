@@ -18,7 +18,7 @@ The main purpose of this image is to be used to show data from a [Home Assistant
 
 | Description  | Value   |
 |--------------|---------|
-| InfluxDB     | 1.8.0  |
+| InfluxDB     | 1.8.1  |
 | ChronoGraf   | 1.8.4  |
 | Grafana      | 7.1.5   |
 
@@ -104,5 +104,5 @@ Port: 8086
 
 
 [grafana-version]: https://img.shields.io/badge/Grafana-7.1.5-brightgreen
-[influx-version]: https://img.shields.io/badge/Influx-1.8.0-brightgreen
+[influx-version]: https://img.shields.io/badge/Influx-1.8.1-brightgreen
 [chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.4-brightgreen
