@@ -16,8 +16,6 @@ The main point of difference with this image is:
 * Flux endpoint is enabled in influxdb config to support direct access in grafana.
 * Chronograf has a explore tab which supports building queries in flux language out of box.
 
-The main purpose of this image is to be used to show data from a [Home Assistant](https://home-assistant.io) installation. For more information on how to do that, please see my website about how I use this container.
-
 | Description  | Value   |
 |--------------|---------|
 | InfluxDB     | 1.8.1  |
