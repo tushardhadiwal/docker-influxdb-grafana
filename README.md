@@ -18,9 +18,9 @@ The main point of difference with this image is:
 
 | Description  | Value   |
 |--------------|---------|
-| InfluxDB     | 1.8.1  |
-| ChronoGraf   | 1.8.4  |
-| Grafana      | 7.1.5   |
+| InfluxDB     | 1.8.3 |
+| ChronoGraf   | 1.8.8  |
+| Grafana      | 7.3.1   |
 
 ## Quick Start
 
