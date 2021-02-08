@@ -12,7 +12,7 @@ The main point of difference with this image is:
 * Persistence is supported via mounting volumes to a Docker container
 * Grafana will store its data in SQLite files instead of a MySQL table on the container, so MySQL is not installed
 * Telegraf (StatsD) is not included in this container
-* Grafana Version has been updated to 7.1.5 , which supports Flux for InfluxDB.
+* Grafana Version has been updated to 7.3.1 , which supports Flux for InfluxDB.
 * Flux endpoint is enabled in influxdb config to support direct access in grafana.
 * Chronograf has a explore tab which supports building queries in flux language out of box.
 
@@ -103,6 +103,6 @@ Port: 8086
 2. Launch `influx` to open InfluxDB Shell (CLI)
 
 
-[grafana-version]: https://img.shields.io/badge/Grafana-7.1.5-brightgreen
-[influx-version]: https://img.shields.io/badge/Influx-1.8.1-brightgreen
-[chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.4-brightgreen
+[grafana-version]: https://img.shields.io/badge/Grafana-7.3.1-brightgreen
+[influx-version]: https://img.shields.io/badge/Influx-1.8.3-brightgreen
+[chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.8-brightgreen
